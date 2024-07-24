@@ -1,0 +1,15 @@
+.rayo-container {
+  width: 2500px;
+  height: 2500px;
+  background-image: url('/assets/images/rayo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.1s;
+}
+
+.rayo-container.hidden {
+  opacity: 0.05; }
+
